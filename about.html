@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Mamori</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #17100f; 
+            color: #E0E0E0; 
+            overflow-x: hidden;
+        }
+        .text-caramel { color: #AA6C39; }
+        .bg-caramel { background-color: #AA6C39; }
+        .hover\:bg-caramel\/80:hover { background-color: rgba(170, 108, 57, 0.8); }
+        .font-title { font-family: 'Playfair Display', serif; }
+        
+        
+        .bg-about-hero {
+            background-image: url(assets/image/backgroundladangkupi.png);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 50vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-about-hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606; 
+            opacity: 0.8;
+            z-index: -1;
+        }
+        .bg-coffee-alternative {
+            background-image: url(assets/image/ldangkopi.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-coffee-alternative::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606;
+            opacity: 0.8;
+            z-index: -1;
+            }
+        .bg-coffee-alternative2 {
+            background-image: url(assets/image/home_alfee.png);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-coffee-alternative2::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606;
+            opacity: 0.4;
+            z-index: -1;
+            }
+        .bg-coffee-footer {
+            background-image: url(assets/image/ldangkopi.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-coffee-footer::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606;
+            opacity: 0.8;
+            z-index: -1;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header class="bg-black/80 absolute w-full z-30">
+        <nav class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+            <a href="index.html" class="flex-shrink-0 text-2xl font-bold font-title text-caramel tracking-wider">MAMORI</a>
+            <div class="space-x-8 hidden md:flex text-sm font-semibold text-white">
+                <a href="index.html" class="hover:text-caramel transition duration-200">HOME</a>
+                <a href="about.html" class="text-caramel border-b-2 border-caramel">ABOUT US</a>
+                <a href="products-bean.html" class="hover:text-caramel transition duration-200">THE COFFEE BEAN</a>
+                <a href="products-leaf.html" class="hover:text-caramel transition duration-200">THE COFFEE LEAF</a>
+                <a href="distribution.html" class="hover:text-caramel transition duration-200">DISTRIBUTION</a>
+                <a href="contact.html" class="hover:text-caramel transition duration-200">CONTACTS</a>
+            </div>
+            <div class="md:hidden">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-about-hero text-white pt-24 pb-16 md:pt-48 md:pb-32">
+            <div class="max-w-4xl mx-auto px-4 text-center z-10">
+                <p class="text-sm uppercase tracking-widest text-caramel mb-2">Our Story</p>
+                <h1 class="text-5xl md:text-6xl font-title font-bold">About Us</h1>
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24 max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-12 items-center">
+                <div class="md:col-span-1 flex justify-center">
+                    <img src="assets/image/home_logo.png" alt="Logo Mamori" class="w-50 h-auto mb-3 mt-15"> 
+                </div>
+                <div class="md:col-span-2 text-justify">
+                    <p class="text-l mb-5 mr-20">
+                        Mamori stands for PT. Manal Mamora Indonesia, was set out in 2017 to create and promote great-tasting and wide varieties of Indonesian coffee from upstream to downstream selection
+                    </p>
+                    <p class="text-sm text-gray-400 mr-20">
+                        Mamori is able to supply the coffee from many origins in Indonesia, and mostly selling the coffee sourced from Sumatera. We strive to grow our business with honesty, integrity and sustainability.
+                    </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-16 md:py-24 bg-coffee-alternative border-t border-b border-gray-800">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-4xl font-title font-bold text-left text-white mb-12 ml-10">The Founder</h2>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1 ml-10 mt-8">
+                        <h3 class="text-5xl font-semibold text-caramel mb-10">M. NAUGAN SIMANUNGKALIT</h3>
+                        <p class="mb-4 text-md  text-justify">
+                            N. Naugan Simanungkalit,has been involving in coffee business for more than 10 years, both in domestic and international market
+                        </p>
+                        <p class="text-md text-justify text-gray-300">
+                            She had served as USA Regional Manager of Coffindo Corporation, coffee exporter company based in Los Angeles, USA, and had participated in several Specialty Coffee Exhibition in US and Japan (SCAA & SCAJ), also in charge at the Foreign Affair Department of AEKI / AICE (The Association of Indonesian Coffee Exporters), and involved in Asia Coffee Symposium event. Recently she also served as Director of PT. Biji Kopi Internusa, the subsidiary company of Sinarmas. Prior to join Coffindo, she served as Public Relation Coordinator at JW Marriott Hotel for Food and Beverage Department, and the Representative from North Sumatera, Indonesia for SSEAYP (The Ship for South East Asian- Japanese Youth Program), which involve 11 countries.
+                        <div class="flex space-x-4 mt-6 text-caramel">
+                            <a href="https://www.instagram.com/naugan.mamori/" class="hover:text-white transition duration-200"><img src="assets/image/ig.png" alt="logo instagram" class="w-6 h-auto"></a> 
+                        </div>
+                    </div>
+                    <div class="order-1 md:order-2 ml-10">
+                        <img src="assets/image/orangdudukcewek.jpg" alt="M. Naugan Simanungkalit" class="w-80 h-full object-cover rounded-xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+ <section class="bg-coffee-alternative2 text-white py-20 md:py-20">
+        <div class="max-w-6xl mx-auto px-100 text-center bg-black/40 p-10 rounded-lg">
+            <h1 class="text-5xl md:text-6xl font-title font-bold mb-6">Our Brand "ALFEE"</h1>
+            <p class="text-xl mb-4 font-light max-w-2xl mx-auto">
+                ALFEE stands for It’s All About Coffee, About The Coffee Bean, About The Coffee Leaf, About The Coffee Waste
+            </p>
+            </a>
+        </div>
+    </section>
+
+<section class="py-16 md:py-15 bg-[#200F0F] border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-4xl font-title font-bold text-center text-white mb-5">Milestones</h2>
+                
+                <div class="h-96 rounded-xl overflow-hidden shadow-2xl border-4 border-caramel mt-10 mr-10 ml-10">
+                    <img src="assets/image/alfeeutkweb.png" alt="Milestones Mamori" class="w-full h-full object-cover">
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24 bg-[#200F0F] border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-4xl font-title font-bold text-center text-white mb-12">Our Address</h2>
+                <div class="grid md:grid-cols-2 gap-12 ml-10 mr-10">
+                    <div>
+                        <h3 class="text-xl font-semibold text-caramel mb-4">Head Office - Mamori</h3>
+                        <p class="text-sm text-gray-400 mb-2">Apartement Pancoran Riverside Jl Pengadegan Timur I No.30 Kel. Pengadegan, Kec. Pancoran, Jakarta Selatan – 12770</p>
+                        <p class="text-sm text-gray-400 mb-2">Indonesia</p>
+                        <p class="text-sm text-caramel mt-4 font-semibold">Email: info@mamori.co.id</p>
+                        <p class="text-sm text-caramel mt-4 font-semibold">Email: nns.khayr@gmail.com</p>
+                        <p class="text-sm text-caramel">Phone: +62 811-603-822</p>
+                    </div>
+                    <div class="h-64 rounded-xl overflow-hidden shadow-2xl border-2 border-caramel">
+                        <img src="assets/image/lokasi.png" alt="Lokasi Kantor Mamori di Jakarta" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-coffee-footer py-40 bg-black/80">
+        <div class="max-w-7xl mx-auto px-4 text-gray-400">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-2xl font-title mb-4 text-caramel">MAMORI</h3>
+                    <p class="text-sm">Create and promote great-tasting and wide varieties of Indonesian coffee from upstream to downstream selection.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-caramel">Halaman</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="about.html" class="hover:text-caramel">About Us</a></li>
+                        <li><a href="products-bean.html" class="hover:text-caramel">The Coffee Bean</a></li>
+                        <li><a href="products-kahwa.html" class="hover:text-caramel">The Coffee Leaf</a></li>
+                        <li><a href="distribution.html" class="hover:text-caramel">Distribution</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-caramel">Hubungi</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="contact.html" class="hover:text-caramel">Kontak</a></li>
+                        <li>Email: info@mamori.co.id</li>
+                        <li>Email: nns.khayr@gmail.com</li>
+                        <li>Telp: +62 811-603-822</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-caramel">Sosial Media</h4>
+                    <div class="flex space-x-26"class="w-full md:w-100 h-100 object-cover">
+                        <a href="https://www.facebook.com/" class="hover:text-caramel"><img src="assets/image/fb.png" alt="facebook"class="w-16 md:w-100 h-100 object-cover"></a>
+                        <a href="https://www.x.com/" class="mt-2 ml-2 mr-4" class="hover:text-caramel"><img src="assets/image/x.png" alt="X"class="w-16 md:w-12 h-12 object-cover"></a>
+                        <a href="https://instagram.com/" class="mt-2" class="hover:text-caramel"><img src="assets/image/ig.png" alt="instagram"class="w-12 md:w-12 h-12 object-cover"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-12 text-xs border-t border-gray-700 pt-6">© 2025 Mamori. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAMORI | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+                body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #17100f;
+            color: #E0E0E0;
+        }
+        .text-caramel {
+            color: #AA6C39;
+        }
+        .bg-caramel {
+            background-color: #AA6C39;
+        }
+        .font-title {
+            font-family: 'Playfair Display', serif;
+        }
+        .border-caramel {
+            border-color: #AA6C39;
+        }
+        .bg-coffee-hero {
+            background-image: url(assets/image/harvestbijikopi.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-coffee-hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606;
+            opacity: 0.8;
+            z-index: -1;
+        }
+        
+        .bg-coffee-alternative {
+            background-image: url(assets/image/ldangkopi.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-coffee-alternative::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606;
+            opacity: 0.8;
+            z-index: -1;
+
+            }
+        .bg-coffee-footer {
+            background-image: url(assets/image/ldangkopi.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+        }
+        .bg-coffee-footer::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #070606;
+            opacity: 0.8;
+            z-index: -1;
+        }
+    </style>
+    <head>
+    <title>MAMORI | Home</title>
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <style>
+   
+    body {
+
+        overflow-x: hidden; 
+    }
+    
+    html {
+        width: 100%;
+        overflow-x: hidden; 
+    }
+
+    #card-gallery::-webkit-scrollbar {
+        display: none; 
+    }
+    #card-gallery {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+</style>
+</head>
+</head>
+<body>
+
+    <header class="bg-black/80 sticky top-0 z-50 shadow-lg">
+        <nav class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold font-title text-caramel tracking-wider">MAMORI</a>
+            <div class="space-x-8 hidden md:flex text-sm font-semibold">
+                <a href="index.html" class="hover:text-caramel border-b-2 border-caramel">HOME</a>
+                <a href="about.html" class="hover:text-caramel">ABOUT US</a>
+                <a href="products-bean.html" class="hover:text-caramel">THE COFFEE BEAN</a>
+                <a href="products-leaf.html" class="hover:text-caramel">THE COFFEE LEAF</a>
+                <a href="distribution.html" class="hover:text-caramel">DISTRIBUTION</a>
+                <a href="contact.html" class="hover:text-caramel">CONTACTS</a>
+            </div>
+            <button class="md:hidden">...</button>
+        </nav>
+    </header>
+
+    <main>
+    
+    <section class="bg-coffee-hero text-white py-24 md:py-40">
+        <div class="max-w-6xl mx-auto px-10 text-center bg-black/40 p-10 rounded-lg">
+            <h1 class="text-5xl md:text-6xl font-title font-bold mb-6">Grade A Indonesian Coffee</h1>
+            <p class="text-xl mb-8 font-light max-w-2xl mx-auto">
+                Create and promote great-tasting and wide varieties of Indonesian coffee from upstream to downstream selection.
+            </p>
+            <a href="about.html" class="inline-block px-8 py-3 bg-caramel hover:bg-caramel/80 transition duration-300 font-semibold uppercase tracking-wider text-sm shadow-xl rounded-lg">
+                About Us
+            </a>
+        </div>
+    </section>
+
+    </main>
+
+        <div class="w-full">
+    <img src="assets/image/home_logo.png" alt="Logo" class="h-64 w-auto mx-auto block mt-20">
+</div>
+        <section class="py-16 bg-301A1A">
+            <div class="max-w-5xl mx-auto px-4 text-center">
+                <h2 class="text-2xl md:text-2xl font-title font-semibold text-caramel mb-4">
+                    We strive to grow our business with honesty, integrity and sustainability
+                </h2>
+                <p class="text-gray-400 max-w-xl mx-auto leading-relaxed">
+                    Mamori stands for PT. Manal Mamora Indonesia, was set out in 2017 to create and promote great-tasting and wide varieties of Indonesian coffee from upstream to downstream selection.
+                </p>
+            </div>
+        </section>
+
+        
+        <section class="py-20">
+            <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <h2 class="text-5xl font-title font-semibold text-caramel md:col-span-3 text-left ml-5 mb-2 ">Explore Our Products</h2>
+                <a href="products-bean.html" class="group relative h-96 overflow-hidden shadow-2xl rounded-lg ml-5">
+                    <img src="assets/image/home_bijikopi.jpg" alt="Coffee Bean" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black/50 group-hover:bg-black/70 transition duration-300 flex items-end p-6">
+                        <h3 class="text-3xl font-title font-bold text-white relative z-10">Coffee Bean</h3>
+                     <h4 class="text-xs font-family text-white mb-2 ml-8">Green Coffee Bean, Roasted/Whole Bean Coffee. Ground Coffee.</h4>
+
+                    </div>
+                </a>
+
+                <a href="products-kahwa.html" class="group relative h-96 overflow-hidden shadow-2xl rounded-lg">
+                    <img src="assets/image/home_teh.jpg" alt="Coffee Leaf" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black/50 group-hover:bg-black/70 transition duration-300 flex items-end p-6">
+                        <h3 class="text-3xl font-title font-bold text-white relative z-10 mt-3">Coffee Leaf</h3>
+                      <h4 class="text-xs font-family text-white mb-2 ml-8">Tea is easily accepted by wider segment as for women and  children, compared to coffee.</h4>
+
+                    </div>
+                </a>
+
+                <a href="distribution.html" class="group relative h-96 overflow-hidden shadow-2xl rounded-lg mr-5">
+                    <img src="assets/image/home_alfee.png" alt="Stores" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black/50 group-hover:bg-black/70 transition duration-300 flex items-end p-6">
+                        <h3 class="text-3xl font-title font-bold text-white relative z-10">Store</h3>
+                        <h4 class="text-xs font-family text-white mt- ml-8">Check where our store locations are. Maybe it's near your place.</h4>
+                    </div>
+                </a>
+
+                
+            </div>
+        </section>
+
+        
+        <section class="py-16 bg-[#281616] rounded-lg">
+            <div class="max-w-6xl mx-auto px-4 rounded-lg">
+                <h2 class="text-4xl font-title font-semibold text-center mb-10 text-caramel rounded-lg">Our Achievement</h2>
+                <div class="grid grid-cols-2 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col md:flex-row gap-4 border border-gray-700 p-4 hover:border-caramel transition duration-300 rounded-lg">
+                        <img src="assets/image/home_liputan.jpg" alt="Mamori Big 3 Jakpreneur" class="w-full md:w-32 h-29 object-cover">
+                        <div>
+                            <p class="text-sm text-gray-400 uppercase">2022</p>
+                            <h4 class="text-lg font-semibold text-white mt-1">Top Big 3 Jakarta Entrepreneur competition Jakarta Entrepreneur (Jakpreneur)</h4>
+                            <a href="about.html" class="text-caramel text-sm hover:underline">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-4 border border-gray-700 p-4 hover:border-caramel transition duration-300 rounded-lg">
+                        <img src="assets/image/foodstartup2024.jpeg" alt="Big 15 Food Startup" class="w-full md:w-32 h-29 object-cover">
+                        <div>
+                            <p class="text-sm text-gray-400 uppercase">2022</p>
+                            <h4 class="text-lg font-semibold text-white mt-1">Top Big 15 Food Start Up Indonesia competition held by The Tourism and Creative Economy Ministry</h4>
+                            <a href="about.html" class="text-caramel text-sm hover:underline">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-4 border border-gray-700 p-4 hover:border-caramel transition duration-300 rounded-lg">
+                        <img src="assets/image/MSME Day_X.png" alt="TOP 34 MSMEs" class="w-full md:w-32 h-29 object-cover">
+                        <div>
+                            <p class="text-sm text-gray-400 uppercase">2024</p>
+                            <h4 class="text-lg font-semibold text-white mt-1">Selected as The Top 34 MSMEs Out of 500 Applicants to Access a Full 1 Year Entrepreneur Program</h4>
+                            <a href="about.html" class="text-caramel text-sm hover:underline">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-4 border border-gray-700 p-4 hover:border-caramel transition duration-300 rounded-lg">
+                        <img src="assets/image/home_pegawai.jpg" alt="Mamori selected as potential MSMEs" class="w-full md:w-32 h-29 object-cover">
+                        <div>
+                            <p class="text-sm text-gray-400 uppercase">2024</p>
+                            <h4 class="text-lg font-semibold text-white mt-1">Mamori was Selected as one of the potential MSMEs to be franchised by the Ministry of Trade</h4>
+                            <a href="about.html" class="text-caramel text-sm hover:underline">Baca Selengkapnya</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+            <section class="bg-coffee-alternative text-white py-20 md:py-20">
+        <div class="max-w-6xl mx-auto px-100 text-center bg-black/40 p-10 rounded-lg">
+            <p class="text-xl mb-4 font-light max-w-2xl mx-auto">
+                Mamori has been invited to talk about coffee by CNN twice, Trans TV, and Daai TV twice.
+            </p>
+            </a>
+        </div>
+    </section>
+
+    <section class="py-16 bg-[#281616] border-t border-gray-700">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-title font-bold text-caramel mb-10 text-center">
+            Our Customers
+        </h2>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4">
+
+        <div class="absolute inset-y-0 left-0 right-0 flex items-center justify-between pointer-events-none z-20">
+            <button id="scroll-left-btn" class="p-3 bg-black/50 text-white rounded-full ml-4 shadow-lg hover:bg-caramel/80 transition duration-300 pointer-events-auto">
+                &#10094; </button>
+            <button id="scroll-right-btn" class="p-3 bg-black/50 text-white rounded-full mr-4 shadow-lg hover:bg-caramel/80 transition duration-300 pointer-events-auto">
+                &#10095; </button>
+        </div>
+
+        <div id="card-gallery" class="overflow-x-scroll whitespace-nowrap pb-6 px-4 scroll-smooth">
+            
+            
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/1citibank.jpg" alt="Citibank" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Citibank</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/2bankindonesia.jpg" alt="BI" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Bank Indonesia</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/3wwf.jpg" alt="WWF" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">WWF</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/4lottedutyfree.png" alt="Lotte" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Lotte Duty Free</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/5alunalunindonesia.jpeg" alt="Alun-alun Indonesia" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-l font-semibold text-white uppercase tracking-wider">Alun-alun Indonesia</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/6grandindonesiashoppingtown.jpg" alt="GI" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Grand Indonesia</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/7plazasenayan.jpeg" alt="Plaza Senayan" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Plaza Senayan</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/8senayancity.jpg" alt="Senayan City" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Senayan City</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/9fxsudirman.png" alt="FX Sudirman" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">FX Sudirman</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/10sarinah.png" alt="Sarinah" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Sarinah</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/11Mugunghwa.jpeg" alt="Mugunghwa" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Mugunghwa</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/12gelael.png" alt="Gelael" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Gelael</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#robusta" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/13ambharaoteljakarta.png" alt="Ambhara Hotel Jakarta" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-l font-semibold text-white uppercase tracking-wider">Ambhara Hotel Jakarta</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/15jjroyalcoffee.image" alt="JJ Royal Coffee" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">JJ Royal Coffee</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-kahwa.html" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/16petrafruit.jpeg" alt="Petra Fruit" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Petra Fruit</p>
+                    </div>
+                </div>
+            </a>
+            <a href="products-bean.html#blend" class="inline-block px-4 group">
+                <div class="w-64 h-64 relative overflow-hidden shadow-xl rounded-lg border border-gray-700 transform group-hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="assets/image/17mirama.jpeg" alt="Mirama" class="w-full h-full object-cover absolute inset-0">
+                    <div class="absolute inset-0 bg-black/40 flex items-end justify-center p-4">
+                        <p class="text-xl font-semibold text-white uppercase tracking-wider">Mirama</p>
+                    </div>
+                </div>
+            </a>
+            </div>
+    </div>
+</section>
+
+        <section class="py-16 bg-[#281616]">
+            <div class="max-w-6xl mx-auto px-4">
+                <h2 class="text-4xl font-title font-semibold text-caramel mb-8">Our Certification</h2>
+                <div class="space-y-6 text-gray-400">
+                    <p>
+                         <h2 class="text-2xl font-family font-light text-gray-400 mb-8">ALFEE Coffee is certified Halal by MUI with number LPPOM –ID31110000162380921. We uphold the standard in presentation of products using Halal ingredients</h2>
+
+                    </p>
+                    <p>
+                        <h2 class="text-2xl font-family font-light text-gray-400 mb-8">Certficate of Competence with number – 10000 7510 0 0028521 2020 in the area of Food Safety with qualification of Food Handler  </h2>
+                <div class="space-y-6 text-gray-400">
+                    </p>
+                    <a href="about.html" class="inline-block px-9 py-5 border border-caramel text-caramel hover:bg-caramel hover:text-white transition duration-300 text-sm mt-4 rounded-lg">
+                        Lihat Detail
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-coffee-footer py-40 bg-black/80">
+        <div class="max-w-7xl mx-auto px-4 text-gray-400">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-2xl font-title mb-4 text-caramel">MAMORI</h3>
+                    <p class="text-sm">Create and promote great-tasting and wide varieties of Indonesian coffee from upstream to downstream selection.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-caramel">Halaman</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="about.html" class="hover:text-caramel">About Us</a></li>
+                        <li><a href="products-bean.html" class="hover:text-caramel">The Coffee Bean</a></li>
+                        <li><a href="products-kahwa.html" class="hover:text-caramel">The Coffee Leaf</a></li>
+                        <li><a href="distribution.html" class="hover:text-caramel">Distribution</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-caramel">Hubungi</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="contact.html" class="hover:text-caramel">Kontak</a></li>
+                        <li>Email: info@mamori.co.id</li>
+                        <li>Email: nns.khayr@gmail.com</li>
+                        <li>Telp: +62 811-603-822</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-caramel">Sosial Media</h4>
+                    <div class="flex space-x-26"class="w-full md:w-100 h-100 object-cover">
+                        <a href="https://www.facebook.com/" class="hover:text-caramel"><img src="assets/image/fb.png" alt="facebook"class="w-16 md:w-100 h-100 object-cover"></a>
+                        <a href="https://www.x.com/" class="mt-2 ml-2 mr-4" class="hover:text-caramel"><img src="assets/image/x.png" alt="X"class="w-16 md:w-12 h-12 object-cover"></a>
+                        <a href="https://instagram.com/" class="mt-2" class="hover:text-caramel"><img src="assets/image/ig.png" alt="instagram"class="w-12 md:w-12 h-12 object-cover"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center mt-12 text-xs border-t border-gray-700 pt-6">© 2025 Mamori. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+<script>
+        // Ambil elemen galeri dan tombol
+        const gallery = document.getElementById('card-gallery');
+        const scrollLeftBtn = document.getElementById('scroll-left-btn');
+        const scrollRightBtn = document.getElementById('scroll-right-btn');
+        
+        // Asumsi lebar geser per kartu
+        const scrollDistance = 304; 
+        
+        // Logika Scroll Kanan (dengan Looping)
+        scrollRightBtn.addEventListener('click', () => {
+            const maxScroll = gallery.scrollWidth - gallery.clientWidth;
+            if (gallery.scrollLeft >= maxScroll - 5) {
+                gallery.scroll({ left: 0, behavior: 'smooth' });
+            } else {
+                gallery.scrollBy({ left: scrollDistance, behavior: 'smooth' });
+            }
+        });
+
+        // Logika Scroll Kiri (dengan Looping)
+        scrollLeftBtn.addEventListener('click', () => {
+            if (gallery.scrollLeft <= 5) {
+                const maxScroll = gallery.scrollWidth - gallery.clientWidth;
+                gallery.scroll({ left: maxScroll, behavior: 'smooth' });
+            } else {
+                gallery.scrollBy({ left: -scrollDistance, behavior: 'smooth' });
+            }
+        });
+    </script>
+    
+</body> </html>
+</body>
+</html>

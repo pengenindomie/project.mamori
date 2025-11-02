@@ -1,0 +1,277 @@
+body {
+    background-image: asset(url('assets/image/harvestbijikopi.jpg'));
+ }
+
+
+#card-gallery::-webkit-scrollbar {
+    display: none; 
+}
+
+
+#card-gallery {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #17100f;
+    color: #E0E0E0;
+    overflow-x: hidden;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.text-caramel {
+    color: #AA6C39;
+}
+.bg-caramel {
+    background-color: #AA6C39;
+}
+.hover\:bg-caramel\/80:hover {
+    background-color: rgba(170, 108, 57, 0.8);
+}
+.font-title {
+    font-family: 'Playfair Display', serif;
+}
+.border-caramel {
+    border-color: #AA6C39;
+}
+
+.input-style {
+    background-color: #3C2222;
+    border: 1px solid #AA6C39;
+    color: #E0E0E0;
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+.input-style:focus {
+    border-color: #E0E0E0;
+    outline: none;
+    box-shadow: 0 0 0 1px #E0E0E0;
+}
+
+#card-gallery::-webkit-scrollbar {
+    display: none;
+}
+#card-gallery {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+
+
+.bg-home-hero {
+    background-image: url(assets/image/harvestbijikopi.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-home-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.bg-about-hero {
+    background-image: url(assets/image/backgroundladangkupi.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-about-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.bg-contact-hero {
+    background-image: url(assets/image/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-contact-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.bg-distribution-hero {
+    background-image: url(assets/image/nyeduh_kopi.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-distribution-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+/* --- Products Bean Page Hero (Original: .bg-coffee-hero) --- */
+.bg-products-bean-hero {
+    background-image: url(assets/image/kopifooter.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-products-bean-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.bg-products-leaf-hero {
+    background-image: url(assets/image/home_teh.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-products-leaf-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.bg-coffee-alternative {
+    background-image: url(assets/image/ldangkopi.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-coffee-alternative::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.bg-coffee-alternative2 {
+    background-image: url(assets/image/home_alfee.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-coffee-alternative2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+.bg-coffee-footer {
+    background-image: url(assets/image/ldangkopi.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.bg-coffee-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070606;
+    opacity: 0.8;
+    z-index: -1;
+}
